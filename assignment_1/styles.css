@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #fff; /* Header background color */
+    background-color: #fff; 
   }
   
   nav ul {
@@ -31,7 +31,7 @@ body {
   
   nav a {
     text-decoration: none;
-    color: #333; /* Navigation link color */
+    color: #333; 
   }
   
   main {
@@ -43,7 +43,7 @@ body {
   }
   
   .login-container {
-    background-color: #add8f2; /* Login box background color */
+    background-color: #add8f2; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -62,15 +62,15 @@ body {
   .login-container input {
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc; /* Input border color */
+    border: 1px solid #ccc;
     border-radius: 5px;
   }
   
   .login-container button {
     padding: 10px;
     border: none;
-    background-color: #19b5e9; /* Login button background color */
-    color: #fff; /* Login button text color */
+    background-color: #19b5e9; 
+    color: #fff; 
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
@@ -78,11 +78,11 @@ body {
   }
   
   .login-container button:hover {
-    background-color: #0056b3; /* Hover background color */
+    background-color: #0056b3; 
   }
   
   footer {
-    background-color: #fff; /* Footer background color */
+    background-color: #fff; 
     padding: 20px;
     text-align: center;
   }
@@ -150,14 +150,13 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Style the dropdown button */
+
 .dropbtn {
   padding: 16px;
   font-size: 16px;
   border: none;
 }
 
-/* Dropdown container */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -166,19 +165,18 @@ body {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-/* Change color of dropdown links on hover */
+
 .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
