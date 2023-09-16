@@ -1,5 +1,5 @@
 # WD-Assignments
-This is a basic webpage that satisfies all the requirements of Assignments 
+This is a basic webpage that satisfies all the requirements of Assignment. 
 #homepage.html is the opening page where the user have to login using the username : hello and password : 123.
 This will redirect to "firstpage.html" where the eye wear shop begins. 
 I have added all the required elements mentioned in the assignment
