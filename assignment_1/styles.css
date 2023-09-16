@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Apple Vision Pro.png');
+    background-size: cover;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; /* Header background color */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav li:first-child {
+    margin-left: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333; /* Navigation link color */
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+  
+  .login-container {
+    background-color: #add8f2; /* Login box background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Input border color */
+    border-radius: 5px;
+  }
+  
+  .login-container button {
+    padding: 10px;
+    border: none;
+    background-color: #19b5e9; /* Login button background color */
+    color: #fff; /* Login button text color */
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: #0056b3; /* Hover background color */
+  }
+  
+  footer {
+    background-color: #fff; /* Footer background color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer li {
+    display: inline;
+    margin: 0 10px;
+  }
+.dropdown {
+  
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.dropdown-dropbtn {
+  padding: 100px 100px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  padding: 10px;
+  z-index: 3;
+}
+
+.dropdown-content p {
+  margin: 0 -150px;
+  padding: 10px 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.login-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.login-text1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.products-container {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: #1f79d8;
+  color: #19b5e9;
+}
+
+.auido {
+  position: top center;
+  margin-left: 260px;
+}
+
+.footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* Dropdown container */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
