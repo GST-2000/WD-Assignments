@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  td img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc; 
+    width: 150px; 
+    height: 150px; 
+  }
+  body {
+    padding: 20px;
+    text-align: center;
+  }
+  tr {
+    border-bottom: 1px solid #ccc;
+  }
+  tr:last-child {
+    border-bottom: none;
+  }
+  
