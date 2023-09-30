@@ -1,0 +1,33 @@
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+#personalInfo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#personalInfo p {
+  margin: 5px 0;
+}
+
+.socialmediaicons ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.socialmediaicons ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.socialmediaicons ul li img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.socialmediaicons {
+  text-align: center;
+}
