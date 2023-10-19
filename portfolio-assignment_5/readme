@@ -1,10 +1,30 @@
-A basic Portfolio #home.html has been created using html with satisfying all the requiremnents.
-I have added all the required elements mentioned in the assignment
-The page consists of sections such as About Me, Experience, Projects, and Contact. 
-#watchvideo button has been added which will redirect you to "video-page.html" where you can access the video.
-#certifications button has been added which will redirect you to "certifications.html" where you can see my few certifications .
-The navigation #menu allows easy access to summay.
-The "Contact" section provides contact information.
-#Footer control has been used as submit to collaborate with me as of now.
-"Summary" section and a footer displaying copyright information
-"Video" and "audio" have been added relating to the concept of mine.
+This website serves as a personal portfolio, showcasing various projects, skills, and information about the individual.
+
+SCSS Features
+Variables: Variables are utilized to store and reuse information throughout the program, enhancing maintainability.
+
+Custom Properties: CSS custom properties (or variables) prefixed with -- are used for defining reusable values and are referenced using the var() function.
+
+Nesting: Selectors are nested inside other selectors, improving code organization and readability by following a clear hierarchy.
+
+Interpolation: Values of variables or expressions are embedded within strings using #{}.
+
+Placeholder Selectors: Placeholder selectors denoted by % are defined but not directly output in the compiled CSS. They can be extended by other selectors.
+
+Mixins: Reusable pieces of code (mixins) are defined and included in other selectors to maintain consistent styles across the website.
+
+Functions: Sass functions allow for calculations and value manipulations. Both built-in and custom functions are utilized.
+
+HTML Features
+Tags included in this website:
+
+<favicon>: Represents the icon displayed in the page title.
+<head>: Contains metadata such as styles, scripts, icons, and the title of the webpage.
+<nav>: Represents a section of the webpage providing navigation.
+<img>: Displays images.
+<a>: Creates hyperlinks to webpages, email addresses, phone numbers, etc.
+<div>: Used as a container for content.
+<button>: Utilized for clickable items, enhancing user interactivity.
+<header>: Represents the header section of the website.
+<footer>: Represents the footer section at the end of the webpage.
+This website incorporates SCSS features to structure CSS effectively, and HTML elements are used to create an engaging and informative portfolio showcasing projects and skills. The theme has been designed to provide a professional and visually appealing display of the portfolio.
