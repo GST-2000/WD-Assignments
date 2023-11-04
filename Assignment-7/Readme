@@ -1,1 +1,42 @@
+The authentication process is custom jQuery validation methods and the utilization of sessionStorage for state management
+
+1)Custom Validation Methods:
+
+emailCheck: Validates that the email provided has the domain @northeastern.edu, allowing only users with this specific email address to log in.
+nameCheck: Ensures that the name field contains only letters, enhancing the form's data integrity.
+
+2)Form Validation Rules:
+
+Comprehensive rules that require the name to be at least 2 characters, email to match the specified pattern, and password to meet the minimum length criteria.
+equalTo method is used to confirm that the password and confirm password fields match, providing a basic level of security.
+Error Messages:
+
+User-friendly error messages are displayed when validation fails, guiding users to correct their entries and providing a smoother user experience.
+submitHandler:
+
+Upon successful validation, the user's name is stored in sessionStorage, and the user is redirected to calculator.html.
+
+
+calculator.html:
+The calculator functionality leverages the following JavaScript and jQuery features:
+
+1)parseFloat(): This function is used to convert the user's input into floating-point numbers, ensuring that mathematical operations are performed correctly.
+
+2)isNaN() Check: Before performing calculations, the code checks if the parsed numbers are valid, preventing errors and ensuring reliable operation.
+
+3)Arithmetic Functions: Custom function performOperation encapsulates the logic to perform addition, subtraction, multiplication, and division, facilitating code reusability and separation of concerns.
+
+3)Switch Statement: Within performOperation, a switch statement determines which arithmetic operation to execute based on user input, demonstrating structured control flow.
+
+4)Session Storage Access: Retrieves the user's name from sessionStorage to personalize the greeting. This indicates that the page can maintain state and display personalized content.
+
+Event Handlers:
+
+Click Event: Attached to buttons, these handlers invoke performOperation with the appropriate operation type when a user clicks an arithmetic operation button.
+Input Event: Bound to number input fields, it provides real-time validation of user input, ensuring that only numerical values are entered.
+DOM Manipulation:
+
+Text Content Update: The jQuery .text() method is used to display the calculated result or personalized greetings based on user input and session data.
+Error Display: Utilizes .show() and .hide() methods to give visual feedback on input validation.
+Form Resetting: The reset button clears all inputs and error messages, resetting the state of the calculator for a new calculation.
 
