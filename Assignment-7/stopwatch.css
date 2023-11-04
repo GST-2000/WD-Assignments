@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 30px; /* Increased space below the heading */
+}
+
+.time-display {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    margin: 40px 0; /* Increased space around the time display */
+    color: #2d3748;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row; /* Layout buttons in a row */
+    justify-content: center;
+    gap: 15px; /* Use gap to add space between flex items */
+    margin-bottom: 30px; /* Increased space below the buttons */
+}
+
+.controls button {
+    font-family: 'Poppins', sans-serif;
+    background-color: #5a67d8;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #4c51bf;
+}
+
+.date-picker {
+    margin-top: 30px; /* Increased space above the date picker */
+}
+
+.date-picker input {
+    padding: 10px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    width: calc(100% - 22px); /* Adjusting width based on padding and border */
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}

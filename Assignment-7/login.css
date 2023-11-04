@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding: 40px;
+    text-align: center; /* Ensures text elements are centered */
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex; /* Using flexbox to align child elements */
+    flex-direction: column; /* Aligns children vertically */
+    justify-content: center; /* Centers children vertically */
+    align-items: center; /* Centers children horizontally */
+}
+.loginform {
+    width: 100%; /* Full width to contain its children */
+    display: flex; /* Using flexbox */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+}
+
+
+.loginform input[type="text"],
+.loginform input[type="email"],
+.loginform input[type="password"] {
+    width: 100%; /* Full width */
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    margin-bottom: 15px; /* Consistent spacing between fields */
+    border: 2px solid #e2e8f0; /* Subtle border color */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f7fafc; /* Slight background color */
+    transition: border-color 0.2s; /* Smooth transition for border */
+}
+
+.loginform input[type="text"]:focus,
+.loginform input[type="email"]:focus,
+.loginform input[type="password"]:focus {
+    border-color: #cbd5e0; /* A slightly darker border for focus */
+}
+
+.form-group {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+label {
+    color: red; /* More subtle color for labels */
+    font-weight: 600; /* Slightly bold label for emphasis */
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.error-message {
+    color: red; /* A vivid red color for errors */
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.btn-primary {
+    font-family: 'Poppins', sans-serif;
+    background-color: #5a67d8; /* A pleasant shade of blue */
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600; /* Slightly bold text */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    width: 100%; /* Full width button */
+    margin-top: 10px; /* Spacing from the last input field */
+}
+
+.btn-primary:hover {
+    background-color: #4c51bf; /* A darker shade for hover state */
+}
+
+.btn-primary:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5); /* A glow effect when button is focused */
+}
+
+/* Placeholder styling */
+::placeholder {
+    color: #a0aec0;
+    opacity: 1; /* Fully opaque */
+}
+
+/* Ensuring the focus state is visible for accessibility */
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 30px;
+    }
+
+    .btn-primary {
+        padding: 10px 20px;
+    }
+
+    /* Ensure the form inputs and buttons are responsive */
+    .loginform input[type="text"],
+    .loginform input[type="email"],
+    .loginform input[type="password"],
+    .btn-primary {
+        width: 100%; /* Full width on small screens */
+    }
+}

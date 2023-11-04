@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /* Remove margin around the body */
+    padding: 0; /* Remove padding around the body */
+    background: #f0f2f5; /* Use a subtle background color */
+    color: #333; /* Set a darker color for text for better readability */
+}
+
+h2 {
+    color: #333;
+    font-weight: 600; /* Make headings slightly bolder */
+    margin-bottom: 1em; /* Add some space below the heading */
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px; /* Slightly larger border radius for a softer look */
+    padding: 40px; /* More padding for a spacious layout */
+    width: 100%; /* Full width to accommodate padding and border */
+    max-width: 600px; /* Max width as in your requirement */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    display: flex; /* Using flex to align content */
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center items horizontally */
+    margin: 20px; /* Ensure margin is consistent */
+}
+
+.number-input {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px; /* Increased padding for better touch targets */
+    margin: 10px 0; /* Add margin to the top and bottom for spacing */
+    border: 2px solid #e2e8f0; /* Subtle border color */
+    border-radius: 8px; /* Rounded corners for the input fields */
+    width: calc(100% - 22px); /* Adjust width considering padding and border */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.error-msg {
+    font-family: 'Poppins', sans-serif;
+    color: red; /* Consistent color with previous design for errors */
+    margin-top: 5px; /* Space after the input */
+    display: none; /* Hide it by default */
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    background-color: #5a67d8; /* Pleasant shade of blue for the button */
+    color: white;
+    padding: 12px 30px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px; /* Rounded corners for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for the button color */
+}
+
+button:hover {
+    background-color: #4c51bf; /* Darker shade of blue on hover */
+}
+
+.result {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    padding: 20px; /* Padding to give content some space */
+    background-color: #e2e8f0; /* A light background to highlight the result */
+    border-radius: 8px; /* Consistent rounded corners */
+    width: 100%; /* Full width to align with other elements */
+    max-width: 540px; /* Adjusted to fit within the container padding */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.25em; /* Slightly smaller font size on smaller screens */
+    }
+}
